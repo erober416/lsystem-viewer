@@ -47,8 +47,8 @@ $ sbt run
 ```
 Under this grammar, most modules specify a matrix transformation to be applied to the turtle keeping track of current drawing location. The rest act only as nodes to carry data between string rewrites.
 # Parametric letter controls
-* F(x): Move forward (in the direction of the current heading) a distance x while drawing a line.
-* f(x): Move forward (in the direction of the current heading) a distance x without drawing a line.
+* F(x): Move forward a distance x while drawing a line.
+* f(x): Move forward a distance x without drawing a line.
 * G(x): Same as F(x).
 * g(x): Same as f(x).
 * +(x): Turn turtle x degrees.
