@@ -22,3 +22,13 @@ $ cd lsystem-viewer
 # Step 2: Compile and run with SBT
 $ sbt run
 ```
+# Controls
+* Use <kbd>→</kbd> to rotate camera clockwise around z-axis
+* Use <kbd>←</kbd> to rotate camera counter-clockwise around z-axis
+* Use <kbd>↑</kbd> to move camera clockwise around x-axis
+* Use <kbd>↓</kbd> to move camera counter-clockwise around x-axis
+* Use <kbd>w</kbd> to move camera up along focal plane
+* Use <kbd>s</kbd> to move camera down along focal plane
+* Use <kbd>a</kbd> to move camera left along focal plane
+* Use <kbd>d</kbd> to move camera right along focal plane
+* Press <kbd>esc</kbd> to return to menu
