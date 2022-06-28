@@ -1,0 +1,12 @@
+Parametric I'L-System
+
+<module>     ::= <letter>['('<simp>[','<simp>]*]')']
+<op>         ::= ['*' | '/' | '+' | '-' | '<' | '>' | '=' | '!']+
+<pword>      ::= [<letter>['('<simp>[','<simp>]*]')']]+
+<atom>       ::= <number> | <bool> | '()' | <pletter> | '('<simp>')'
+<uatom>      ::= [<op>]<atom>
+<simp>       ::= <uatom>[<op><uatom>]*
+<pred>       ::= [<pword> '<'] <pword> ['>' <pword>]
+<axiom>      ::= "W:" <pword>
+<production> ::= "P:" <pred> [':'<simp>] "->" <pword>
+<lsystem>    ::= <axiom> [<production>]*
