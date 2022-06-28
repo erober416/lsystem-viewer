@@ -19,7 +19,7 @@ $ git clone https://github.com/erober416/lsystem-viewer.git
 $ cd lsystem-viewer
 ```
 ```shell
-# Step 2: Compile and run with SBT
+# Step 2: Compile and run with sbt
 $ sbt run
 ```
 # Controls
