@@ -46,3 +46,19 @@ $ sbt run
 <lsystem>    ::= <axiom> [<production>]*
 ```
 Under this grammar, most modules specify a matrix transformation to be applied to the turtle keeping track of current drawing location. The rest act only as nodes to carry data between string rewrites.
+# Parametric letter controls
+* F(x): Move forward (in the direction of the current heading) a distance x while drawing a line.
+* f(x): Move forward (in the direction of the current heading) a distance x without drawing a line.
+* G(x): Same as F(x).
+* g(x): Same as f(x).
+* +(x): Turn turtle x degrees.
+* -(x): Turn turtle -x degrees.
+* &(x): Pitch turtle x degrees.
+* ^(x): Pitch turtle -x degrees.
+* \(x): Roll turtle x degrees.
+* /(x): Roll turtle -x degrees.
+* $: Roll the turtle on its own axis so that the vector pointing to the turtle's left is in horizontal position.
+* |: Turn turtle 180 degrees.
+* \[: Push the current state of the turtle onto the stack.
+* \]: Pop a turtle off of the stack and use it as new turtle.
+* !(x): Change width of line to x.
