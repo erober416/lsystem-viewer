@@ -33,13 +33,13 @@ $ sbt run
 * Use <kbd>d</kbd> to move camera right along focal plane
 * Press <kbd>esc</kbd> to return to menu
 # Grammar
-<module>     ::= <letter>['('<simp>[','<simp>]*]')']
-<op>         ::= ['*' | '/' | '+' | '-' | '<' | '>' | '=' | '!']+
-<pword>      ::= [<letter>['('<simp>[','<simp>]*]')']]+
-<atom>       ::= <number> | <bool> | '()' | <pletter> | '('<simp>')'
-<uatom>      ::= [<op>]<atom>
-<simp>       ::= <uatom>[<op><uatom>]*
-<pred>       ::= [<pword> '<'] <pword> ['>' <pword>]
-<axiom>      ::= "W:" <pword>
-<production> ::= "P:" <pred> [':'<simp>] "->" <pword>
-<lsystem>    ::= <axiom> [<production>]*
+* <module>     ::= <letter>['('<simp>[','<simp>]*]')']
+* <op>         ::= ['*' | '/' | '+' | '-' | '<' | '>' | '=' | '!']+
+* <pword>      ::= [<letter>['('<simp>[','<simp>]*]')']]+
+* <atom>       ::= <number> | <bool> | '()' | <pletter> | '('<simp>')'
+* <uatom>      ::= [<op>]<atom>
+* <simp>       ::= <uatom>[<op><uatom>]*
+* <pred>       ::= [<pword> '<'] <pword> ['>' <pword>]
+* <axiom>      ::= "W:" <pword>
+* <production> ::= "P:" <pred> [':'<simp>] "->" <pword>
+* <lsystem>    ::= <axiom> [<production>]*
