@@ -9,6 +9,7 @@ This is software for parsing and rendering Stochastic Parameteric 2L-Systems as 
 * C-Style preprocessor including #define
 * On-the-fly interpretation of arithmetic expressions
 * Supports creation of arbitrary nodes in axiom and productions
+* Supports creation of arbitrary parameters in productions
 * Supports adding a background image to the viewer
 # How to build
 This is an example of how to build using **Linux**. This software requires the JVM to be installed on a system before compiling, and SBT is the default tool used to build.
