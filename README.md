@@ -31,6 +31,7 @@ $ sbt run
 * Use <kbd>s</kbd> to move camera down along focal plane
 * Use <kbd>a</kbd> to move camera left along focal plane
 * Use <kbd>d</kbd> to move camera right along focal plane
+* Press <kbd>space</kbd> to rewrite the current string according to productions
 * Press <kbd>esc</kbd> to return to menu
 # Grammar
 ```text
