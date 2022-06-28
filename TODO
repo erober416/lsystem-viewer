@@ -1,0 +1,51 @@
+Preprocessor: #include, #ignore, #consider
+-Define macros in #include
+
+Add comments!!!!!
+
+Decomposition
+
+Hotkey to refresh file while still in the viewer
+
+Rotate 2D viewer along z axis
+
+Merge collinear lines to make rendering quicker for large scenes
+
+Save objects
+
+Print objects to scene
+
+Construct multiple plant renderings with backgrounds
+
+Add empty successors somehow
+
+Add semantic analyzer
+
+Fix float comparisons in interpreter
+
+Learn about bicubic surfaces
+
+Let stochastic weights be exps that can be evaluated
+- Will have to come up with new selection method
+
+Fix lines on x axis not showing in 3d
+
+Add drawing attribute instructions
+
+Maybe try to clean up lparser
+
+Add inline programming statements to eval
+
+Add boolean && and ||
+
+Tropism
+
+Sub l systems (hanan chapter 6)
+
+Surface modeling
+
+Inline blackbox functions
+-Idea: convert these to modules during parsing. Treat them not having parentheses as syntactic sugar
+
+Store nodes in turtle instead of just points so they can be other surfaces than lines
+-Idea: Pass group to turtle and turtle appends nodes; they will be there when function returns
