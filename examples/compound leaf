@@ -1,0 +1,7 @@
+#define delay 1
+#define rate 1.5
+angle: 45
+W: !(2)A(0)
+P: A(d): d > 0 => A(d-1)
+P: A(d): d == 0 => F(1)[+A(delay)][-A(delay)]F(1)A(0)
+P: F(a) => F(a*rate)

@@ -1,0 +1,4 @@
+angle: 60
+W: F
+P: F => F+G++G-F--FF-G+
+P: G => -F+GG++G+F--F-G

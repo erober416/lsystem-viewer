@@ -1,0 +1,4 @@
+angle: 120
+W: F-G-G
+P: F => F-G+F+G-F
+P: G(a) => G(2*a)

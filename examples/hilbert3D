@@ -1,0 +1,5 @@
+W: A
+P: A => B-F+CFC+F-D&F^D-F+&&CFC+F+B//
+P: B => A&F^CFB^F^D^^-F-D^|F^B|FC^F^A//
+P: C => |D^|F^B-F+C^F^A&&FA&F^C+F+B^F^D//
+P: D => |CFB-F+B|FA&F^A&&FB-F+B|FC//

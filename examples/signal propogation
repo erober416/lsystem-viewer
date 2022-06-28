@@ -1,0 +1,4 @@
+W: BDDDD
+P: B < D     => B
+P:     B > D => D
+P:     B     => C

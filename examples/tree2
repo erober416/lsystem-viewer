@@ -1,0 +1,9 @@
+#define d1 94.74
+#define d2 132.63
+#define a 50
+#define lr 1.109
+#define vr 1.732
+W: !(1)F(40)/(45)A
+P: A => !(vr)F(10)[&(a)F(10)A]/(d1)[&(a)F(10)A]/(d2)[&(a)F(10)A]
+P: F(l) => F(l*lr)
+P: !(w) => !(w*vr)

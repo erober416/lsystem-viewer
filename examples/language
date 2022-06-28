@@ -1,0 +1,7 @@
+ /*
+ * <op>     ::= ['*' | '/' | '+' | '-' | '<' | '>' | '=' | '!']+
+ * <bool>   ::= 'true' | 'false'
+ * <atom>   ::= <number> | '('<simp>')' | <ident>
+ * <uatom> ::= [<op>]<atom>
+ * <simp>   ::= <uatom>[<op><uatom>]*
+ */
