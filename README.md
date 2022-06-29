@@ -23,7 +23,7 @@ $ cd lsystem-viewer
 $ sbt run
 ```
 # Viewing your first L-System
-When launching the software the GUI will at first display several buttons. The quickest way to get started with rendering is pressing ```choose file``` option and navigating to the ```examples``` directory.
+When launching the software the GUI will at first display several buttons. The quickest way to get started with rendering is pressing ```choose file``` option and navigating to the ```examples``` directory. Several example L-System specification files are within. These are mostly classic examples from *Algorithmic Beauty of Plants*.
 # Controls
 * Use <kbd>→</kbd> to rotate camera clockwise around z-axis
 * Use <kbd>←</kbd> to rotate camera counter-clockwise around z-axis
