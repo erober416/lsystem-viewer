@@ -1,7 +1,7 @@
 # lsystem-viewer
 
 # What is this
-This is software for parsing and rendering Stochastic Parameteric 2L-Systems as well as various subsets. It is written in Scala using ScalaFX/JavaFX. Based on the theoretical foundations created by Aristid Lindenmayer as described in the textbook [*Algorithmic Beauty of Plants*](http://algorithmicbotany.org/papers/abop/abop.pdf).
+This is software for parsing and rendering Stochastic Parameteric 2L-Systems as well as various subsets. It is written in Scala using ScalaFX/JavaFX. Based on the theoretical foundations created by Aristid Lindenmayer as described in the textbook [*Algorithmic Beauty of Plants*](http://algorithmicbotany.org/papers/abop/abop.pdf). When writing the parser, I tried to keep a syntax as close to the textbook as possible.
 # Features
 * 2D and 3D L-System rendering
 * Context sensitivity
@@ -35,22 +35,7 @@ When launching the software the GUI will at first display several buttons. The q
 * Use <kbd>d</kbd> to move camera right along focal plane
 * Press <kbd>space</kbd> to rewrite the current string according to productions
 * Press <kbd>esc</kbd> to return to menu
-# Writing L-Systems
-When writing the parser, I tried to follow the syntax used in *Algorithmic Beauty of Plants* as close as possible. The following file ```tree3``` is an example taken from Chapter 2.
-```tree3
-#define r1 0.9
-#define r2 0.6
-#define a0 45
-#define a2 45
-#define d 137.5
-#define wr 0.707
-W: A(50, 20)
-P: A(l, w) => !(w)F(l)[&(a0)B(l*r2, w*wr)]/(d)A(l*r1, w*wr)
-P: B(l, w) => !(w)F(l)[-(a2)$C(l*r2, w*wr)]C(l*r1, w*wr)
-P: C(l, w) => !(w)F(l)[+(a2)$B(l*r2, w*wr)]B(l*r1, w*wr)
-```
-
-# Grammar
+# Full Grammar
 ```text
 <module>     ::= <letter>['('<simp>[','<simp>]*]')']
 <op>         ::= ['*' | '/' | '+' | '-' | '<' | '>' | '=' | '!']+
