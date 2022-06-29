@@ -22,6 +22,8 @@ $ cd lsystem-viewer
 # Step 2: Compile and run with sbt
 $ sbt run
 ```
+# Viewing your first L-System
+When launching the software the GUI will at first display several buttons. The quickest way to get started with rendering is pressing ```choose file``` option and navigating to the ```examples``` directory.
 # Controls
 * Use <kbd>→</kbd> to rotate camera clockwise around z-axis
 * Use <kbd>←</kbd> to rotate camera counter-clockwise around z-axis
