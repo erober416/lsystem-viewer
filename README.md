@@ -43,7 +43,7 @@ $ sbt run
 <simp>       ::= <uatom>[<op><uatom>]*
 <pred>       ::= [<pword> '<'] <pword> ['>' <pword>]
 <axiom>      ::= "W:" <pword>
-<production> ::= "P:" <pred> [':'<simp>] "->" <pword>
+<production> ::= "P:" <pred> [':'<simp>] "->" <pword> [: <number>]
 <lsystem>    ::= <axiom> [<production>]*
 ```
 Under this grammar, most modules specify a matrix transformation to be applied to the turtle keeping track of current drawing location. The rest act only as nodes to carry data between string rewrites.
